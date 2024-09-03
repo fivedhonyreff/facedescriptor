@@ -1,0 +1,31 @@
+flavors:
+    development:
+        app:
+            name: "MPIA - Development"
+
+        android:
+            applicationId: "com.biofarma.mpia.development"
+        ios:
+            bundleId: "com.biofarma.mpia.development"
+        macos:
+            bundleId: "com.biofarma.mpia.development"
+    staging:
+        app:
+            name: "MPIA - Staging"
+
+        android:
+            applicationId: "com.biofarma.mpia.staging"
+        ios:
+            bundleId: "com.biofarma.mpia.staging"
+        macos:
+            bundleId: "com.biofarma.mpia.staging"
+    prod:
+        app:
+            name: "MPIA"
+
+        android:
+            applicationId: "com.biofarma.mpia"
+        ios:
+            bundleId: "com.biofarma.mpia"
+        macos:
+            bundleId: "com.biofarma.mpia"
